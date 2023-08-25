@@ -7,7 +7,8 @@ public class main{
         double b=sc.nextDouble();
         double c=sc.nextDouble();
         double s=(a+b+c)/2;
-        double area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
-        System.out.printf("%.2f",area);
+        double ar=Math.sqrt(s*(s-a)*(s-b)*(s-c));
+        System.out.printf("%.2f",ar);
+    
     }
 }
